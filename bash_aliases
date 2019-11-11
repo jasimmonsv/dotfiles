@@ -26,7 +26,7 @@ done
 
 # Setup go environment
 PATH=$PATH:/usr/local/go/bin
-PATH=$PATH:~/programming/go/bin
+PATH=$PATH:~/06Applications/go/bin
 export GOPATH=$HOME/programming/go
 
 export FZF_DEFAULT_OPTS='
@@ -44,10 +44,10 @@ fi
 
 NC='\033[0m'
 
-PROMPT_COMMAND='echo -e "${HOST_CLR}$(whoami)@kingslanding${NC}:${DIR_CLR}$(dirs)${NC}"'
+#TODO PROMPT_COMMAND='echo -e "${HOST_CLR}$(whoami)@kingslanding${NC}:${DIR_CLR}$(dirs)${NC}"'
 PS1='$ '
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+#TODO [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 if [[ ! $TERM =~ screen ]]; then
     tmux && exit
