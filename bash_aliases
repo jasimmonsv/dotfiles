@@ -45,7 +45,7 @@ fi
 NC='\033[0m'
 
 #TODO PROMPT_COMMAND='echo -e "${HOST_CLR}$(whoami)@kingslanding${NC}:${DIR_CLR}$(dirs)${NC}"'
-PS1='$ '
+# PS1='$ '
 
 #TODO [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
